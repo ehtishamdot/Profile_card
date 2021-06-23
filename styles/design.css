@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kumbh Sans;
+}
+
+/* ## MAIN */
+
+main{
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: right 47vw top -90vh, 43vw 50vh;
+  background-size: 150vh;
+}
+
+/* ## CONTAINER */
+.container{  
+    background-color: white;
+    width:375px; 
+    text-align: center; 
+    border-radius:15px;
+    max-width: 1440px;
+    position: absolute;  
+}
+
+
+.container_top_background_img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.container_top_profile_img{
+    margin-top: -4rem;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.box1{
+    text-align: center;
+}
+.box2{
+ display: flex;
+ justify-content:space-evenly;
+ border-top: 1px solid  hsl(0, 6%, 88%);
+ margin-top: 2rem;
+}
+.box2 p{
+    font-size: 11px;
+}
+.box{
+    margin: 1rem 0;
+}
+
+/* ##TRPOGRAPHY */
+
+h2,h3{
+font-size:18px;
+font-weight: 700;
+color:  hsl(229, 23%, 23%);
+}
+
+p{
+    font-size:14px;
+    line-height: 0;
+    letter-spacing: 1px;
+}
+span,p{
+color: hsl(227, 10%, 46%);
+font-weight: 400;
+}
