@@ -1,6 +1,6 @@
 # ahtidotpk - Profile card component
 
-![Design preview for the Profile card](./design/desktop-preview.jpg)
+![Design preview for the Profile card](./design/FULL DESIGN.PNG)
 
 ## Welcome! 👋
 
