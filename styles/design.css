@@ -15,7 +15,7 @@ main{
   height: 100vh;
   background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
   background-repeat: no-repeat;
-  background-position: right 47vw top -90vh, 43vw 50vh;
+  background-position: right 45vw top -87vh, 45vw 38vh;
   background-size: 150vh;
 }
 
@@ -57,7 +57,7 @@ main{
     margin: 1rem 0;
 }
 
-/* ##TRPOGRAPHY */
+/* ## TRPOGRAPHY */
 
 h2,h3{
 font-size:18px;
